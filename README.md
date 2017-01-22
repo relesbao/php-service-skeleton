@@ -24,3 +24,5 @@ Start the environment
 ``` Shell
 	cd ../ && docker-compose up
 ```
+
+Now if you navigate to http://localhost:8080/ping you should receive an "OK" message
