@@ -1,0 +1,13 @@
+{
+    "name": "relesbao/php-service-skeleton",
+    "description": "PHP Service Skeleton",
+    "require": {
+        "silex/silex": "~2.0"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require-dev": {
+        "symfony/browser-kit": "^3.2"
+    }
+}
