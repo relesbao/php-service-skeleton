@@ -1,5 +1,7 @@
-PHP SKELETON FOR A SERVICE ORIENTED ARCHITECTURE
+PHP SERVICE SKELETON
 ================================================
+
+Skeleton application based on the Silex Framework to run php applications on a service based architecture.
 
 ## What do you need to get started:
 
