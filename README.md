@@ -1,7 +1,7 @@
 PHP SERVICE SKELETON
 ================================================
 
-[![Build Status](https://travis-ci.org/relesbao/php-service-skeleton.svg?branch=master)(https://travis-ci.org/azu/travis-badge)]
+[Build Status](https://travis-ci.org/relesbao/php-service-skeleton.svg?branch=master)
 
 
 Skeleton application based on the Silex Framework to run php applications on a service based architecture.
