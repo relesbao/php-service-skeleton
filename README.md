@@ -3,7 +3,6 @@ PHP SERVICE SKELETON
 
 [![Build Status](https://travis-ci.org/relesbao/php-service-skeleton.svg?branch=master)](https://travis-ci.org/relesbao/php-service-skeleton)
 
-
 Skeleton application based on the Silex Framework to run php applications on a service based architecture.
 
 ## What do you need to get started:
@@ -21,13 +20,18 @@ Download the skeleton:
 ```
 
 Install deps:
-``` Shell
-	cd skeleton/app && composer install
+```bash
+	cd skeleton && make
 ```
 
-Start the environment
-``` Shell
-	cd ../ && docker-compose up
+Run it
+```bash
+	make run
 ```
 
-Now if you navigate to http://localhost:8080/ping you should receive an "OK" message
+Test
+```bash
+    make test
+```
+
+By default the docker machine exposes the `8080` port, you can change it by editing the `docker-compose.yml` file
