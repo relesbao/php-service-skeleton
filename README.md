@@ -16,22 +16,22 @@ Once you get it all installed you can run the following commands to get your ske
 
 Download the skeleton:
 ``` Shell
-	git clone https://github.com/relesbao/php-service-skeleton.git skeleton
+git clone https://github.com/relesbao/php-service-skeleton.git skeleton
 ```
 
 Install deps:
 ```bash
-	cd skeleton && make
+cd skeleton && make
 ```
 
 Run it
 ```bash
-	make run
+make run
 ```
 
 Test
 ```bash
-    make test
+make test
 ```
 
 By default the docker machine exposes the `8080` port, you can change it by editing the `docker-compose.yml` file
